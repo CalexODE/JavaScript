@@ -15,6 +15,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/concatenacao.html" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Variaveis2.html" root0="SKIP_HIGHLIGHTING" />
@@ -56,6 +59,7 @@
       <updated>1580491963954</updated>
       <workItem from="1580491965282" duration="2329000" />
       <workItem from="1580920605724" duration="5755000" />
+      <workItem from="1581096437827" duration="1372000" />
     </task>
     <servers />
   </component>
