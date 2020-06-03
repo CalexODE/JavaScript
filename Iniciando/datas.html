@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Datas</title>
+    <script>
+
+        var data = new Date()
+        /**
+        document.write('Data:')
+        document.write('<br/>')
+        document.write("Dia " + data.getDate())
+        document.write('<br/>')
+        document.write("Mês " + (data.getMonth() + 1))
+        document.write('<br/>')
+        document.write("Ano " + data.getFullYear())
+        document.write('<br/>')
+        document.write(data.getTime())
+        **/
+        document.write(data.toString())
+        data.setDate(data.getDate() + 1)
+        document.write("<br/>")
+        document.write(data.toString())
+        document.write("<hr/>")
+        document.write("<br/>")
+        document.write("<br/>")
+
+
+        document.write(data.toString())
+        data.setMonth(data.getMonth() - 1)
+        document.write("<br/>")
+        document.write(data.toString())
+        document.write("<hr/>")
+        document.write("<br/>")
+        document.write("<br/>")
+        document.write("<br/>")
+
+        document.write("<hr/>")
+        var data1 = new Date(2017, 0, 15)
+        var data2 = new Date(2017, 1, 23)
+
+        document.write(data1.toString())
+        document.write("<br/>")
+        document.write(data2.toString())
+        document.write("<br/>")
+
+        var mile1 = data1.getTime()
+        var mile2 = data2.getTime()
+
+        var mile_por_dia = 1*24*60*60*1000
+        var diferenca = Math.abs(mile2 - mile1)
+
+        document.write(diferenca/mile_por_dia)
+    </script>
+</head>
+<body>
+
+</body>
+</html>

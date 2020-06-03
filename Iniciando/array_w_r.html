@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Incluir e remover</title>
+
+    <script>
+
+        var frutas = Array()
+
+        frutas[0] = "Banana"
+        frutas[1] = "Maca"
+
+        //Incluir no final
+        frutas.push("Uva")
+
+        //Incluir no inicio
+        frutas.unshift("Morango")
+
+        //Excluir no final
+        //frutas.pop()
+
+        //Excluir no inicio
+        //frutas.shift()
+
+
+        //pesquisar
+        if (frutas.indexOf('Uva') === -1)
+        {
+            console.log("O elemento não existe")
+        }else
+        {
+            console.log("O elemento está em " + frutas.indexOf('Uva'))
+        }
+
+        console.log(frutas)
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

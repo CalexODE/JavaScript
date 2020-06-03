@@ -19,9 +19,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/concatenacao.html" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Variaveis2.html" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Variaveis.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Iniciando/concatenacao.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Iniciando/Variaveis2.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Iniciando/Variaveis.html" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1XAbhH6BIHvW73HJQWTiKNpE8nE" />
   <component name="ProjectViewState">
@@ -34,6 +34,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alexa\Documents\GitHub\JavaScript\Iniciando" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -59,7 +65,15 @@
       <updated>1580491963954</updated>
       <workItem from="1580491965282" duration="2329000" />
       <workItem from="1580920605724" duration="5755000" />
-      <workItem from="1581096437827" duration="1372000" />
+      <workItem from="1581096437827" duration="1976000" />
+      <workItem from="1586194478982" duration="1061000" />
+      <workItem from="1586195584441" duration="3011000" />
+      <workItem from="1586284768993" duration="4386000" />
+      <workItem from="1586886089610" duration="3108000" />
+      <workItem from="1587060917463" duration="4016000" />
+      <workItem from="1588595310092" duration="4899000" />
+      <workItem from="1590427097974" duration="6365000" />
+      <workItem from="1591206783902" duration="7321000" />
     </task>
     <servers />
   </component>
@@ -71,6 +85,19 @@
       <screen x="65" y="0" width="1301" height="768" />
     </state>
     <state x="550" y="42" key="#Inspections/65.0.1301.768@65.0.1301.768" timestamp="1580922502943" />
+    <state x="404" y="169" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1587063699049">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="404" y="169" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.768@0.0.1366.768" timestamp="1587063699049" />
+    <state x="526" y="102" key="IDE.errors.dialog" timestamp="1586198628522">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="526" y="102" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1586198628522" />
+    <state x="189" y="52" key="SettingsEditor" timestamp="1587063700102">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="366" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586195547882" />
+    <state x="189" y="52" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1587063700102" />
     <state x="679" y="174" key="run.anything.popup" timestamp="1580922850365">
       <screen x="65" y="0" width="1301" height="768" />
     </state>

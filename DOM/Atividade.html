@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade</title>
+    <style>
+        #blocoCentral{
+            margin: 0 auto;
+            min-width: 500px;
+            max-width: 500px;
+            height: 100px;
+            background-color: #cccccc;
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center
+        }
+    </style>
+    <script>
+        function mudarBackground(id, color)
+        {
+            document.getElementById(id).style.background = color
+        }
+        function verifica()
+        {
+
+            var palavra = document.getElementById('input').value
+            document.getElementById('input').value = ''
+            mudarBackground('input', 'white')
+
+            if ( palavra.length < 3 )
+            {
+                mudarBackground('blocoCentral', 'red')
+            }
+            else
+            {
+                mudarBackground('blocoCentral', 'green')
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <div id="blocoCentral">
+        <input id="input" type="text"
+            onfocus="mudarBackground('input','yellow')"
+            onfocusout="verifica()">
+    </div>
+</body>
+</html>

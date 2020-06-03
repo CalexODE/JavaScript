@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 2</title>
+
+    <script>
+
+        var objetos = ["Caderno", "Garfo", "Cadeira"]
+
+
+        function adicionarElemento()
+        {
+            var valor = document.getElementById("entrada").value
+
+            console.log(valor)
+            if (valor === '')
+            {
+                alert("Informe um valor válido!")
+            }
+            else
+                {
+                if(objetos.indexOf(valor) === -1)
+                {
+                    objetos.push(valor)
+                    document.getElementById("entrada").value = ''
+                    alert("Adicionado")
+                    console.log(objetos)
+                }else
+                {
+                    alert("Valor já existe na lista")
+                }
+            }
+        }
+
+        function ordenarElementos()
+        {
+            objetos.sort()
+            console.log(objetos)
+        }
+
+        function mostrarLista()
+        {
+            console.log(objetos)
+        }
+
+    </script>
+</head>
+<body>
+
+    <div>
+        <input id="entrada" type="text" size="40">
+        <button onclick="adicionarElemento()">Adicionar</button>
+        <button onclick="ordenarElementos()">Ordenar</button>
+        <hr/>
+        <button onclick="mostrarLista()">Mostrar Lista</button>
+    </div>
+
+</body>
+</html>
