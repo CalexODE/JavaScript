@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Praticando</title>
+
+
+    <script>
+        var pessoas = Array()
+
+        pessoas[0] = "Alexandre"
+        pessoas[1] = "José"
+        pessoas[2] = "João"
+
+        var x = 0
+        while(pessoas.length > x)
+        {
+            document.write(pessoas[x] + "<br/>")
+            x++
+        }
+
+        document.write("<br/> <hr>")
+
+        for (var a = 1; a <= 10; a++)
+        {
+            for (var b = 1; b <= 10; b++)
+            {
+                document.write(a + " x " + b + " = " + (a*b) + "<br />")
+            }
+            document.write("<br />")
+        }
+
+
+        for ( var c in pessoas)
+        {
+            document.write(c + " Valor " + pessoas[c] + "<br />")
+        }
+
+        pessoas.forEach(function(valor, indice, array){
+            console.log(indice)
+        })
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
