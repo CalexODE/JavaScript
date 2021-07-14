@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+
+    <script>
+
+        var video = Array()
+
+        video[1] = Array()
+        video[1]['nome'] = 'Fullmetal alchemist'
+        video[1]['categoria'] = 'Anime'
+
+        function getVideo(video) {
+
+            try {
+
+                console.log(video[0]['nome'])
+
+            } catch (e) {
+                console.log('Errouuu')
+                throw new Error("Vamos voltar")
+
+            } finally {
+                console.log('Sempre Passa')
+            }
+
+            console.log("O programa continua")
+        }
+
+        getVideo(video)
+    </script>
+</head>
+
+<body>
+
+
+</body>
+
+</html>
